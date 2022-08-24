@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-image: url(https://img.freepik.com/free-photo/pink-concrete-textured-background_53876-63606.jpg?w=740&t=st=1661169937~exp=1661170537~hmac=d7f575339dfe52652eb482d6f985eb3fc156b304487292b1c327a99c0b76f7d2);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+.header {
+  background-color: black;
+  box-shadow: 0px 10px 28px 0px rgba(122, 122, 122, 0.7);
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  max-height: 20rem;
+}
+
+.nombre {
+  color: #ff7866;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 120px;
+  margin: 0;
+  padding: 10rem 12rem;
+}
+
+.avatar {
+  width: 23%;
+  position: relative;
+  top: 120px;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.descripcion {
+  max-width: 50%;
+  padding: 5rem 12rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5rem;
+}
+
+.descripcion_bold {
+  font-weight: bold;
+}
+
+.boton {
+  background-color: black;
+  position: relative;
+  top: 100px;
+  left: -20px;
+  border-radius: 50px;
+  box-shadow: 0px 10px 28px 0px rgba(122, 122, 122, 0.7);
+}
+
+.boton p {
+  color: #ff7866;
+  margin: 0;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 4rem;
+  padding: 1rem 5rem;
+}
